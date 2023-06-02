@@ -12,12 +12,12 @@ a {
     text-decoration: none;
 }
 
-header, footer {
-    position: fixed;
+header, footer {    
     background-color: #1f2937;
     display: flex;  
 }
 header {
+    position: fixed;
     width: 100%;
     top: 0;
     height: 100px;
@@ -58,6 +58,7 @@ header .links a:hover {
 
 main {
     margin-top: 100px;
+    margin-bottom: 7px;
 }
 
 .description {
@@ -135,8 +136,7 @@ main {
     display: flex;  
     justify-content: space-between;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 10%;
 }
 
 .information .text {
@@ -182,17 +182,87 @@ main {
 }
 
 .information .image p {
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
 }
+
+.quote {
+    display: relative;
+    background-color: #E5E7EB;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.quote .text {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #1f2937;
+}   
+
+.quote .text h5{
+    padding-left: 70%;
+}
+
+.sign-up2 {
+    display: flex;
+    background-color: #E5E7EB;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #3882F6;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.sign-up2 .text {
+    
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.sign-up2 .text h6 {
+    font-size: 24px;
+}
+
+.sign-up2 .button {
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    align-self: center;
+    height: 1%;
+}
+
+.sign-up2 .button button {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.sign-up2 .button button:hover {
+    border: 2px solid #1f2937;
+    border-radius: 5px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
 
 footer {
     bottom: 0;
     width: 100%;
+    height: 3%;
+    justify-content: center;
 }
 
 footer p {
     color: #E5E7EB;
-    align-self: center;
-    margin: 0.5% auto;
 }
