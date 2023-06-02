@@ -1,5 +1,7 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0; 
 }
 
 body {
@@ -37,8 +39,7 @@ header .links {
     margin-left: auto;
     margin-right: 10%;
     gap: 5%;  
-    
-}  
+    }  
 
 header .links a { 
     flex: auto 1 0;
@@ -103,7 +104,7 @@ main {
 }
 
 .description .sign-up button:hover {
-    margin: 0%;
+    margin: 0%; 
     background-color: #F9FAF8;
     color: #1f2937;
     border: none;
@@ -111,28 +112,83 @@ main {
 }
 
 .description .image {
-    flex: auto 1 0;
     background-color: gray;
+    border-radius: 20px;
+    width: 30%;
     margin-left: auto;
     margin-right: 7.5%;
-    height: 10%;
-    border-radius: 20px;
+    margin-bottom: 3%;
 }
 
 .description .image .text {
+    flex: auto;
     margin: 0;
+    align-self: center;
 }
 
 .description .image .text p{
     color: #F9FAF8;
-    
+    text-align: center;
+}
+
+.information {
+    display: flex;  
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.information .text {
+    margin: 0;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    flex: auto;
+    font-size: 36px;
+    align-self: center;
+}
+
+.information .image {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20%;
+}
+
+.information .image .image1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+.information .image .image2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+.information .image .image3 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+.information .image img {
+    padding: 50%;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+}
+
+.information .image p {
+    font-size: 18px;
     text-align: center;
 }
 
 footer {
     bottom: 0;
     width: 100%;
-    
 }
 
 footer p {
